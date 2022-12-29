@@ -10,10 +10,10 @@ _Here are some examples of situations where the Counter class might be useful:_
 Being a _dict()_ subccalss, when given a iterable, it will return a dictionary that maps the elements of the iterable to their counts.
 Example:
 
-'''python
+```python
 from collections import Counter
 
 lst = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
 counter = Counter(lst)
 print(counter) # Output: Counter({4: 4, 3: 3, 2: 2, 1: 1})
-'''
+```
